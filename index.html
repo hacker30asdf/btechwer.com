@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<! -- this is comment -- >
+<! -- doctype say this is html file -- >
+<! -- html is main tag -- >
+
+<html>
+<! -- head is a contanair whose contains css(style), js(javascripts) and title -- >
+
+<head>
+<meta name="google-site-verification" content="1HQAbcmth8BQsrk0czXme2GBXFK6aMIvLIDpezZ11bE" />
+<! -- title tag used for make website title -- >
+
+<title>btech</title>
+<! -- style tag is used to insert style in website -- >
+
+<style>
+body {
+  background-image: url("learingimg2.png");
+  background-repeat: no-repeat;
+  background-size: 1277px 687px;
+}
+.logo {
+   position: absolute;
+   top : 2px;
+   left : 5px;
+}
+.link{
+   position: absolute;
+   left: 1010px;
+   border: 1px solid white;
+   width: 80px;
+   height: 40px;
+   transition : 1s;
+}
+.h{
+   text-decoration: none;
+   color: white;
+   position: absolute;
+   right: 15px;
+   top: 4px;
+   cursor: pointer;
+   padding: 8px;
+   transition: 1.5s;
+}
+.link .h:hover{
+  background: white;
+  color: black;
+}
+.link:hover{
+   border-radius: 25px;
+   border: 1px solid lightgray;
+   background: white;
+}
+.link1{
+   position: absolute;
+   left: 1100px;
+   border: 1px solid white;
+   width: 80px;
+   height: 40px;
+   transition : 1s;
+}
+.s{
+   text-decoration: none;
+   color: white;
+   position: absolute;
+   right: 8px;
+   top: 4px;
+   cursor: pointer;
+   padding: 8px;
+   transition: 1.5s;
+}
+.link1 .s:hover{
+  background: white;
+  color: black;
+}
+.link1:hover{
+   border-radius: 25px;
+   border: 1px solid lightgray;
+   background: white;
+}
+.link2{
+   position: absolute;
+   left: 1190px;
+   border: 1px solid white;
+   width: 80px;
+   height: 40px;
+   transition : 1s;
+}
+.c{
+   text-decoration: none;
+   color: white;
+   position: absolute;
+   right: 7px;
+   top: 3px;
+   cursor: pointer;
+   padding: 8px;
+   transition: 1.5s;
+}
+.link2 .c:hover{
+  background: white;
+  color: black;
+}
+.link2:hover{
+   border-radius: 25px;
+   border: 1px solid lightgray;
+   background: white;
+}
+.name{
+  position: absolute;
+  top: 250px;
+  left: 370px;
+  font-size: 30px;
+}
+.button{
+   position: absolute;
+   left: 500px;
+   top: 380px;
+   border: 1px solid white;
+   width: 150px;
+   height: 40px;
+   transition : 1s;
+}
+.w{
+   text-decoration: none;
+   color: white;
+   position: absolute;
+   right: 20px;
+   top: 4px;
+   cursor: pointer;
+   padding: 9px;
+   transition: 1.5s;
+}
+.button .w:hover{
+  background: white;
+  color: black;
+}
+.button:hover{
+   border-radius: 25px;
+   border: 1px solid lightgray;
+   background: white;
+}
+.button2{
+   position: absolute;
+   left: 670px;
+   top: 380px;
+   border: 1px solid white;
+   width: 150px;
+   height: 40px;
+   transition : 1s;
+}
+.l{
+   text-decoration: none;
+   color: white;
+   position: absolute;
+   right: 20px;
+   top: 4px;
+   cursor: pointer;
+   padding: 9px;
+   transition: 1.5s;
+}
+.button2 .l:hover{
+  background: white;
+  color: black;
+}
+.button2:hover{
+   border-radius: 25px;
+   border: 1px solid lightgray;
+   background: white;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+   position: absolute;
+   top: 0.5px;
+   right : 280px;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  position : absolute;
+  top: 490px;
+  left: 280px;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  position : absolute;
+  top: 488px;
+  right: 150px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 100px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.button3 {
+   color: red;
+   position : absolute;
+  top: 490px;
+  left: 150px;
+  width: 100px;
+}
+</style>
+</head>
+<body>
+<! -- body tag is use to make body that you see it is official or main -- >
+<img src = 'logo.png' class = 'logo'>
+<div class='link'>
+<a href=# class='h'>Home</a>
+</div>
+<div class='link1'>
+<a href=# class='s' id='se' onclick='service()'>Service</a>
+</div>
+<div class='link2' id='co'>
+<a href=# class='c' onclick='con()'>Contact</a>
+</div>
+<div class='name'>
+<h1 class='titlef'>BTECH KNOWLEDGE</h1>
+</div>
+<div class='button'>
+<a href='https://www.youtube.com/channel/UC46kCuBh0msvGvJIFBH6Vyg/featured' class='w'>Watch Video</a>
+</div>
+<div class='button2'>
+<a href='https://www.w3schools.com/' class='l'>Learn More</a>
+</div>
+</body>
+<script>
+function service() {
+  var person = prompt("Please enter your name", "Harry");
+  if (person != null) {
+    var choice = prompt('what type of service you want we have learn html, python','write your choice') 
+    if (choice == 'python'){
+        alert('welcome python world')
+        window.open('https://www.w3schools.com/html/')
+    }
+    if (choice == 'html'){
+       alert('welcome html world')
+        window.open('https://www.w3schools.com/python/')
+      }
+    else {
+       alert('invalid text')
+      }
+  }
+}
+</script>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="login.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required id='usern'>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required id='passn'>
+        
+      <button type="submit" class='button3' onclick='my()'>Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script>
+function my(){
+    var pass = document.getElementById('usern').value;
+    var user = document.getElementById('passn').value;
+    var f = 90;
+    if (pass == f){
+        alert('welcome all of you. press ok.');
+        window.open('https://www.youtube.com/channel/UC46kCuBh0msvGvJIFBH6Vyg');
+    }
+    else{
+        alert('invalid');
+        return;
+    }
+}
+</script>
+</html>
